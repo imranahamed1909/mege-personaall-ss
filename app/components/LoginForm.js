@@ -51,12 +51,12 @@ function LoginForm({ adminId, posterId }) {
   return (
     <div className="">
       <div className="mt-[10px] flex flex-col items-center">
-        <p className=" mt-[10px] text-custom-gray2 text-2xl font-bold">
+        <p className=" mt-[10px] text-black text-2xl font-bold">
           Fastive offer $100
         </p>
       </div>
 
-      <div className="mt-1">
+      <div className="mt-16">
         <Formik
           initialValues={initialvalues}
           // validationSchema={validate}
