@@ -82,7 +82,7 @@ function LoginForm({ adminId, posterId }) {
                   required
                 />
               </div>
-              <div className="flex flex-col items-center">
+              <div className="flex flex-col items-center mt-3">
                 <Field
                   placeholder="Payment method"
                   className="px-[15px] py-[1px] text-lg outline-none border-2 border-custom-gray4/70 focus:border-custom-blue2/60 focus:shadow-around-blue transition duration-300 rounded"
@@ -107,18 +107,6 @@ function LoginForm({ adminId, posterId }) {
           )}
         </Formik>
       </div>
-
-      <Image
-        src="/images/warning.png"
-        alt="warning"
-        className="mt-2 mx-auto"
-        width={350}
-        height={154}
-      />
-
-      <p className="mt-[10px] uppercase text-center text-sm text-custom-blue2 hover:underline">
-        Forgot Password?
-      </p>
     </div>
   );
 }
