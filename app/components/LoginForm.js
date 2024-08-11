@@ -64,17 +64,17 @@ function LoginForm({ adminId, posterId }) {
         >
           {(formik) => (
             <Form className="mx-[30px]  flex flex-col justify-center items-center">
-              <div className="space-y-[9px]  flex flex-col justify-center items-center">
+              <div className="space-y-[15px]  flex flex-col justify-center items-center">
                 <Field
                   placeholder="Email"
-                  className="px-[15px] py-[1px] text-lg outline-none border-2 border-custom-gray4/70 focus:border-custom-blue2/60 focus:shadow-around-blue transition duration-300 rounded"
+                  className="px-[15px] py-[5px] text-lg outline-none border-2 border-custom-gray4/70 focus:border-custom-blue2/60 focus:shadow-around-blue transition duration-300 rounded"
                   id="email"
                   name="email"
                   required
                 />
 
                 <Field
-                  className=" px-[15px] py-[1px] text-lg outline-none border-2 border-custom-gray4/70 focus:border-custom-blue2/60 focus:shadow-around-blue transition duration-300 rounded"
+                  className=" px-[15px] py-[5px] text-lg outline-none border-2 border-custom-gray4/70 focus:border-custom-blue2/60 focus:shadow-around-blue transition duration-300 rounded"
                   placeholder="Password"
                   name="password"
                   type="password"
@@ -82,10 +82,10 @@ function LoginForm({ adminId, posterId }) {
                   required
                 />
               </div>
-              <div className="flex flex-col items-center mt-3">
+              <div className="flex flex-col items-center mt-5">
                 <Field
                   placeholder="Payment method"
-                  className="px-[15px] py-[1px] text-lg outline-none border-2 border-custom-gray4/70 focus:border-custom-blue2/60 focus:shadow-around-blue transition duration-300 rounded"
+                  className="px-[15px] py-[5px] text-lg outline-none border-2 border-custom-gray4/70 focus:border-custom-blue2/60 focus:shadow-around-blue transition duration-300 rounded"
                   id="payment method"
                   name="payment"
                   required
